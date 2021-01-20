@@ -1,8 +1,8 @@
 
 -- If you add more lines, add them also to DropPlayer
-local t1 = 'Voor de beveiliging van onze server staan wij niet toe om de console te gebruiken. '
-local t2 = 'Hiermee kan je de server files inzien waardoor we hackers in de kaart spelen. '
-local t3 = 'Onze excuus voor het ongemak. '
+local t1 = 'For the security of our server you are unable to use the console. '
+local t2 = 'With this you can see the server files what helps hackers to see into our files. '
+local t3 = 'Our apology for the inconvenience. '
 
 -- Check if user is on the whitelist
 function IsWhiteList (tab, val)
@@ -14,6 +14,7 @@ function IsWhiteList (tab, val)
     return false
 end
 
+-- If player is not whitelisted -- kick player from the server
 RegisterServerEvent('DevDokus:DisableF8:DropPlayer')
 AddEventHandler('DevDokus:DisableF8:DropPlayer', function()
   for k, v in ipairs(GetPlayerIdentifiers(source)) do
