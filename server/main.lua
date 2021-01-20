@@ -1,8 +1,8 @@
 
 -- If you add more lines, add them also to DropPlayer
-local t1 = 'For the security of our server you are unable to use the console. '
-local t2 = 'With this you can see the server files what helps hackers to see into our files. '
-local t3 = 'Our apology for the inconvenience. '
+local t1 = 'For the security of our server we do not allow you to use the console. '
+local t2 = 'This allows you to view the server files that are helping hackers to do their thing. '
+local t3 = 'Our apologies for the inconvenience. '
 
 -- Check if user is on the whitelist
 function IsWhiteList (tab, val)
